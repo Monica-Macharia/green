@@ -196,12 +196,14 @@ div#class{
 }
 nav#nav{
 position: absolute;
-height: 80px;
+height: 10px;
 left: 0px;
 right: 0px;
 top: 0px;
 background: #FFFFFF;
 display:inline-block;
+/* margin-bottom: 20px;
+margin-top: 2px; */
 }
 img#hero{
 position: absolute;
