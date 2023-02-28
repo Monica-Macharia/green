@@ -1,6 +1,7 @@
 html {
     font-family: 'Playfair Display', serif;
     scroll-behavior: smooth;
+  
 }
 
 /* body{
@@ -113,10 +114,10 @@ top: 16px;
 }
 h2#thebox{
 position: absolute;
-width: 111px;
-height: 35px;
+/* width: 111px;
+height: 35px; */
 left: 40px;
-top: 2px;
+top: 5px;
 /* font-family: 'Work Sans'; */
 font-style: italic;
 font-weight: 700;
@@ -210,7 +211,7 @@ left: 0px;
 right: 0px;
 top: 70px;
 background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(.jpeg);
-
+object-fit: cover;
 }
 div#feat{
     position: absolute;
@@ -286,14 +287,14 @@ p#things{
 position: absolute;
 width: 556px;
 height: 168px;
-left: 196px;
-top: 262px;
+left: 106px;
+top: 220px;
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 72px;
 line-height: 84px;
-color: #292E3D;
+color: rgb(239, 233, 233);
 }
 img#arrowb{
     padding-right: 10px;
