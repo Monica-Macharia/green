@@ -12,8 +12,8 @@ let button = document.querySelector("#next")
 //changing back the landing page image once the back button is clicked
 let back = document.querySelector("#back")
     back.addEventListener("click", (event)=>{
-        button.style.borderColor="rgb(65, 105, 225)";
-        button.style.borderWidth="medium";
+        back.style.borderColor="rgb(65, 105, 225)";
+        back.style.borderWidth="medium";
         let backImage = document.querySelector("#hero")
         backImage.src= "./images/mike.jpg"
         document.querySelector("#things").style.display="inline-block";
