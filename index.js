@@ -24,4 +24,17 @@ let history=document.querySelector("#work")
     history.addEventListener("click", (event)=> {
         window.open("history.html")
         
+        
     } )
+    history.addEventListener("mouseover", (event)=>{
+        history.style.backgroundColor="lightblue"
+    })
+
+//integrating hover on services elements
+let white=document.getElementById("white")
+    white.addEventListener("click", (event)=>{
+        white.style.backgroundColor="#0046AA";
+        let text = document.querySelector("#build")
+        text.style.color="white"
+        window.open("sustainable.html")
+    })
