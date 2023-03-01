@@ -97,3 +97,19 @@ let project= document.getElementById("repair")
         project.style.color="white"
     }
     )
+
+let five=document.getElementById("white3")
+let impact= document.querySelector("#draw")
+    five.addEventListener("mouseover", (event)=>{
+        five.style.backgroundColor="#0046AA"
+        impact.style.color="white"
+    })
+    five.addEventListener("click", (event)=>{
+        five.style.backgroundColor="#0046AA";
+        impact.style.color="white"
+        window.open("impact.html")
+    })
+    five.addEventListener("mouseout", (event)=>{
+        five.style.backgroundColor="white";
+        impact.style.color="#0046AA"
+    })
