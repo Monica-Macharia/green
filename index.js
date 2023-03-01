@@ -32,6 +32,9 @@ let history=document.querySelector("#work")
 
 //integrating hover on services elements
 let white=document.getElementById("white")
+    white.addEventListener("mouseover", (event)=>{
+        white.style.backgroundColor="lightblue"
+    })
     white.addEventListener("click", (event)=>{
         white.style.backgroundColor="#0046AA";
         let text = document.querySelector("#build")
@@ -41,8 +44,8 @@ let white=document.getElementById("white")
 
 let blue=document.getElementById("blue")
     blue.addEventListener("click", (event)=>{
-        blue.style.backgroundColor="#0046AA";
+        blue.style.backgroundColor="white";
         let text = document.querySelector("#renovate")
-        text.style.color="white"
+        text.style.color="blue"
         window.open("carbon.html")
     })
