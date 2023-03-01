@@ -76,3 +76,24 @@ let distribution= document.querySelector("#consult")
         distribution.style.color="white"
         window.open("distribution.html")
     })
+    third.addEventListener("mouseout", (event)=>{
+        third.style.backgroundColor="white";
+        distribution.style.color="#0046AA"
+    })
+
+let four=document.getElementById("blue2")
+let project= document.getElementById("repair")
+    four.addEventListener("mouseover", (event)=>{
+        four.style.backgroundColor="white";
+        project.style.color="#0046AA"
+    })
+    four.addEventListener("click", (event)=>{
+        four.style.backgroundColor="white";
+        project.style.color="blue"
+        window.open("project.html")
+    })
+    four.addEventListener("mouseout", (event)=>{
+        four.style.backgroundColor="#0046AA"
+        project.style.color="white"
+    }
+    )
