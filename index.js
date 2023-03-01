@@ -19,4 +19,8 @@ let back = document.querySelector("#back")
         document.querySelector("#things").style.display="inline-block";
     })
 
-    
+//opening a HTML page after more on our history is clicked
+let history=document.querySelector("#work")
+    history.addEventListener("click", (event)=> {
+        window.open("https://www.google.com")
+    } )
