@@ -42,6 +42,11 @@ let white=document.getElementById("white")
         sustainable.style.color="white"
         window.open("sustainable.html")
     })
+    white.addEventListener("mouseout", (event)=>{
+        white.style.backgroundColor="white"
+        sustainable.style.color="#0046AA"
+    }
+    )
 
 let blue=document.getElementById("blue")
 let text = document.querySelector("#renovate")
@@ -54,15 +59,20 @@ let text = document.querySelector("#renovate")
         text.style.color="blue"
         window.open("carbon.html")
     })
+    blue.addEventListener("mouseout", (event)=>{
+        blue.style.backgroundColor="#0046AA"
+        text.style.color="white"
+    }
+    )
 
-    let third=document.getElementById("white2")
-    let distribution= document.querySelector("#consult")
-       third.addEventListener("mouseover", (event)=>{
-           third.style.backgroundColor="#0046AA"
-           distribution.style.color="white"
-       })
-       third.addEventListener("click", (event)=>{
-           third.style.backgroundColor="#0046AA";
-           distribution.style.color="white"
-           window.open("distribution.html")
-       })
+let third=document.getElementById("white2")
+let distribution= document.querySelector("#consult")
+    third.addEventListener("mouseover", (event)=>{
+        third.style.backgroundColor="#0046AA"
+        distribution.style.color="white"
+    })
+    third.addEventListener("click", (event)=>{
+        third.style.backgroundColor="#0046AA";
+        distribution.style.color="white"
+        window.open("distribution.html")
+    })
