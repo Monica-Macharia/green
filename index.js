@@ -32,20 +32,37 @@ let history=document.querySelector("#work")
 
 //integrating hover on services elements
 let white=document.getElementById("white")
+ let sustainable = document.querySelector("#build")
     white.addEventListener("mouseover", (event)=>{
-        white.style.backgroundColor="lightblue"
+        white.style.backgroundColor="#0046AA"
+        sustainable.style.color="white"
     })
     white.addEventListener("click", (event)=>{
         white.style.backgroundColor="#0046AA";
-        let text = document.querySelector("#build")
-        text.style.color="white"
+        sustainable.style.color="white"
         window.open("sustainable.html")
     })
 
 let blue=document.getElementById("blue")
+let text = document.querySelector("#renovate")
+    blue.addEventListener("mouseover", (event)=>{
+        blue.style.backgroundColor="white";
+        text.style.color="#0046AA"
+    })
     blue.addEventListener("click", (event)=>{
         blue.style.backgroundColor="white";
-        let text = document.querySelector("#renovate")
         text.style.color="blue"
         window.open("carbon.html")
     })
+
+    let third=document.getElementById("white2")
+    let distribution= document.querySelector("#consult")
+       third.addEventListener("mouseover", (event)=>{
+           third.style.backgroundColor="#0046AA"
+           distribution.style.color="white"
+       })
+       third.addEventListener("click", (event)=>{
+           third.style.backgroundColor="#0046AA";
+           distribution.style.color="white"
+           window.open("distribution.html")
+       })
