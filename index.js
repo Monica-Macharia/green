@@ -38,3 +38,11 @@ let white=document.getElementById("white")
         text.style.color="white"
         window.open("sustainable.html")
     })
+
+let blue=document.getElementById("blue")
+    blue.addEventListener("click", (event)=>{
+        blue.style.backgroundColor="#0046AA";
+        let text = document.querySelector("#renovate")
+        text.style.color="white"
+        window.open("carbon.html")
+    })
