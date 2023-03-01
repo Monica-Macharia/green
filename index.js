@@ -113,3 +113,21 @@ let impact= document.querySelector("#draw")
         five.style.backgroundColor="white";
         impact.style.color="#0046AA"
     })
+
+
+let six=document.getElementById("blue3")
+let energy= document.getElementById("power")
+    six.addEventListener("mouseover", (event)=>{
+        six.style.backgroundColor="white";
+        energy.style.color="#0046AA"
+    })
+    six.addEventListener("click", (event)=>{
+        six.style.backgroundColor="white";
+        energy.style.color="blue"
+        window.open("energy.html")
+    })
+    six.addEventListener("mouseout", (event)=>{
+        six.style.backgroundColor="#0046AA"
+        energy.style.color="white"
+    }
+    )
