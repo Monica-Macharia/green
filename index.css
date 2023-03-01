@@ -196,6 +196,7 @@ div#class{
 }
 nav#nav{
 position: absolute;
+
 height: 10px;
 left: 0px;
 right: 0px;
@@ -479,6 +480,7 @@ img#man{
 position: absolute;
 width: 902px;
 height: 669px;
+object-fit: cover;
 left: calc(50% - 902px/2 - 155px);
 top: calc(50% - 669px/2 - 64px);
 /* background: url(.jpg);
