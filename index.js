@@ -22,7 +22,8 @@ let back = document.querySelector("#back")
 //opening a HTML page after more on our history is clicked
 let history=document.querySelector("#work")
     history.addEventListener("click", (event)=> {
-        window.open("history.html")
+        
+        document.querySelector("#secondpage").innerHTML= window.location.replace("history.html")
         
         
     } )
