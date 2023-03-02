@@ -23,6 +23,7 @@ let back = document.querySelector("#back")
 let history=document.querySelector("#work")
     history.addEventListener("click", (event)=> {
         
+        //opens the window on top of the existing window
         document.querySelector("#secondpage").innerHTML= window.location.replace("history.html")
         
         
