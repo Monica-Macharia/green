@@ -25,7 +25,8 @@ let history=document.querySelector("#work")
         
         //opens the window on top of the existing window
         document.querySelector("#secondpage").innerHTML= window.location.replace("history.html")
-        document.querySelector(".history")
+        document.querySelector(".history").addEventListener("click", (event)=>
+        window.location.replace("index.html"))
         
     } )
     history.addEventListener("mouseover", (event)=>{
