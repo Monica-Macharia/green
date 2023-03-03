@@ -25,13 +25,19 @@ let history=document.querySelector("#work")
         
         //opens the window on top of the existing window
         document.querySelector("#secondpage").innerHTML= window.location.replace("history.html")
-        document.querySelector(".history").addEventListener("click", (event)=>
-        window.location.replace("index.html"))
+  
         
     } )
     history.addEventListener("mouseover", (event)=>{
         history.style.backgroundColor="lightblue"
     })
+    // let backButton=document.querySelector(".historypage")
+    // console.log(backButton)
+    // backButton.addEventListener("click", (event)=>{
+    //     window.location.replace("index.html")
+    //     console.log("clicked")
+    //     }
+    //     )
 
 //integrating hover on services elements
 let white=document.getElementById("white")
