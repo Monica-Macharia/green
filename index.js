@@ -31,6 +31,9 @@ let history=document.querySelector("#work")
     history.addEventListener("mouseover", (event)=>{
         history.style.backgroundColor="lightblue"
     })
+    history.addEventListener("mouseout", (event)=>{
+        history.style.backgroundColor="white"
+    })
     // let backButton=document.querySelector(".historypage")
     // console.log(backButton)
     // backButton.addEventListener("click", (event)=>{
