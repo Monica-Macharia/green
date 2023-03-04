@@ -143,3 +143,9 @@ let energy= document.getElementById("power")
         energy.style.color="white"
     }
     )
+
+//interactivity in the contact us button
+// let contact = document.querySelector("#contact")
+// contact.addEventListener("click", (event){
+//     window.location.href=""
+// })
