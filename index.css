@@ -195,13 +195,13 @@ div#class{
    
 }
 nav#nav{
-position: absolute;
-
+position: fixed;
+z-index: 1;
 height: 10px;
 left: 0px;
 right: 0px;
 top: 0px;
-background: #FFFFFF;
+background: #0058C9;
 display:inline-block;
 /* margin-bottom: 20px;
 margin-top: 2px; */
