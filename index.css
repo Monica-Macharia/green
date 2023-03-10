@@ -1773,4 +1773,6 @@ top: 260px;
 bottom: 2%;
 
 }
-
+img.vintage{
+    object-fit: cover;
+}
