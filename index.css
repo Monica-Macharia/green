@@ -189,6 +189,7 @@ color: #F9995D;
 flex: none;
 text-decoration: none;
 }
+
 div#class{
     margin-left: 805px;
     margin-top: 22px;
@@ -201,7 +202,7 @@ height: 10px;
 left: 0px;
 right: 0px;
 top: 0px;
-background: #FFFFFF;
+background-color: white;
 display:inline-block;
 /* margin-bottom: 20px;
 margin-top: 2px; */
